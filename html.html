@@ -1,0 +1,136 @@
+<!--Restaurant -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Culinary Delights</title>
+        <!--BOOTSTRAP Element-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css">
+        <div style ="background:#f2e6d9;">
+        <body>
+            
+            <marquee><header><h1>WELCOME TO CULINARY DELIGHTS</h1></header></marquee>
+            <div class="decor1">
+                <h1><p>          </p></h1>
+            </div>
+
+
+<div style ="background:#f2e6d9;">
+    <table border = "5px solid black"; width="73%">
+        <tr>
+            <td><a href="Appetizers">Appetizers</a></td>
+            <td><a href="Contact">Contact</a></td>
+        </tr>
+    </table>
+    
+
+
+
+                <div class="Appetizers">
+                        <center><h1>Appetizers</h1><center>
+                            <hr>
+                        <p>Appetizers are the main dishes of the day. They are often served in a variety of Flavours and Taste</P>
+                        <ul>
+                            
+                            <ul><img src="Meatballs.jpg" width="100" height="100"></ul>
+                                <p>These teriyaki pineapple meatballs appetizer changed so many times because of my families suggestions that it eventually became a main course. I think the homemade sauce sets these meatballs apart. —Evette Nowicki, Oak Harbor, Washington</p>
+                            <hr>
+
+                            <ul><img src="fruit.jpg" width="100" height="100"></ul>
+                            <p>Who says cheese and sausage get to have all the fun? Make this fruit charcuterie board a party go-to with any that are in season. —Taste of Home Test Kitchen</p>
+                            <hr>
+
+                            <ul><img src="spina.jpg" width="100" height="100"></ul>
+                            <p>One taste of this outrageously delicious hot spinach artichoke dip and your guests will not stop eating it until it is gone. The savory blend of artichokes, spinach and Parmesan cheese is positively addictive! It tastes even better if you make it the night before and chill it in the fridge before baking. —Michelle Krzmarzick, Torrance, California</p>
+                            <hr>
+                            <br>
+                            <br>
+                            <br>
+                    
+                </div>
+                <div class="MainCourses">
+                    <center><h1>Main Course</h1><center>
+                    <p>MainCourses are the main dishes of the day. They are often served in a variety of Flavours and Taste</P>
+                    <ul>
+                        
+                        <ul><img src="cedar.webp" width="100" height="100"></ul>
+                            <p>Smoky flavor to your dish. Use the cedar plank as a platform for grilling fish, meat, or veggies. Enhance your grilling repertoire with some other great Healthy Living Recipes for the Grill.</p>
+                        <hr>
+
+                        <ul><img src="chicken.webp" width="100" height="100"></ul>
+                        <p>Air Fryer Chicken Tikka Recipe: Chicken Tikka is a popular and a delicious snack which traditionally cook in tandoor but here we bring a quick and easy recipe of this. You can make it in a air fryer.</p>
+                        <hr>
+                        <br>
+                        <br>
+                        <br>
+
+                </div>
+                <div class="Desserts">
+                        <center><h1>Desserts</h1><center>
+                        <p>Desserts are the main dishes of the day. They are often served in a variety of Flavours and Taste</p>
+
+                            <ul><img src="fer.webp" width="100" height="100"></ul>
+                            <p>Homemade Ferrero Rocher Recipe: We all are big fan of Ferrero Rocher, but do you know one thing that you can made these delicious chocolate at home with few ingredients.</p>
+                            <hr>
+
+                            <ul><img src="ice.webp" width="100" height="100"></ul>
+                            <p>Gulkand Ice Cream Recipe: This is a quick and easy cream recipe which is perfect to make in this summer season.</p>
+                            <hr>
+                        
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+
+                        
+                </div>
+                <div class="Beverages">
+                        <center><h1>Beverages</h1><center>
+                        <p>Beverages are the main dishes of the day. They are often served in a variety of Flavours and Taste</p>
+
+                       <ul><img src="straw.jpg" width="100" height="100"></ul>
+                       <p>Taste & Texture: It is a little creamy and light, sweet and has a touch of zesty flavor.</p>
+                       <hr>
+
+                       <ul><img src="strawman.jpg" width="100" height="100"></ul>
+                       <p>Healthy and filling: Enjoy it as a breakfast or mid-evening snack. This strawberry mango smoothie is perfectly filling, satisfying and deliciously good. It will keep you full until lunchtime.</p>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+
+                <div class="Contact">
+                    <center><h2>Contact Information and Reservation</h2></center>
+                    <p>The website should provide contact details, including the restaurant's address, phone number, and a contact form for reservations. Customers should be able to input their name, email, desired reservation date, party size, and any special requests.</p>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date">
+                        <label for="partysize">Partysize:</label>
+                        <input type="text" id="partysize" name="partysize">
+                        <label for="special">Special Requests:</label>
+                        <input type="text" id="special" name="special">
+                        <input type="submit" value="Submit">
+                </div>
+            </nav>
+
+
+<script>
+    var map = L.map('map').setView([51.505, -0.09], 13);
+    L.tileLayer('https://unpkg.com/leaflet@1.7.1/dist/leaflet.js', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        id:'mapbox/streets-v11',
+            }).addTo(map);
+            L.marker([20.0, -0.09],6).addTo(map)
+            </script>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+         
+            </div>
+        </body>
+    </head>
+</html>
